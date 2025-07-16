@@ -1,0 +1,80 @@
+*{
+   font-family:  Arial, 
+}
+h1,h3{
+  color: #b92b27;
+}
+#login{
+   background-color: white;
+}
+#signup{
+background-color: #b92b27;
+color: white;
+}
+.upvote{
+   background-color: green
+    ;
+    color: white;
+}
+/* decendant selector */
+.post a{
+  color: purple;
+  background-color: yellow;
+  
+}
+nav ul li a:hover{
+   color: hotpink;
+   
+
+}
+/* sibling combinator */
+p + h3{
+   text-decoration: underline;
+
+}
+
+.upvote + button{
+   background-color: aqua;
+   color: black;
+}
+
+/* child combinators */
+div > input{
+   background-color:antiquewhite
+}
+/* attribute selectors */
+input[type="text"]{
+   color: rgb(106, 182, 240);
+}
+
+input[type="password"]{
+   color: rgb(243, 16, 20);
+}
+/* pseudo elements */
+button:hover{
+   background-color: #0d0c0c;
+   color: white;
+}
+h3:hover{
+   text-decoration: blue overline;
+}
+button:active{
+  
+   background-color: brown;
+   color: white;}
+
+
+   p:active{
+   color: rgb(0, 255, 119);
+    font-weight: bold;
+   }
+
+input[type="radio"]:checked + label{
+   color: red;
+}
+
+span :nth-of-type(){
+   background-color: blueviolet;
+ 
+   
+}
