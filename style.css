@@ -50,7 +50,7 @@ input[type="text"]{
 input[type="password"]{
    color: rgb(243, 16, 20);
 }
-/* pseudo elements */
+/* pseudo elements/ class */
 button:hover{
    background-color: #0d0c0c;
    color: white;
