@@ -1,0 +1,25 @@
+.card{
+height: 300px;
+width: 200px;
+display: inline-block;
+margin: 10px;
+transition: 1s;
+border: 3px solid black;
+border-radius: 10px;
+box-shadow: 0 4px 8px black
+
+
+
+}
+.disc{
+padding-left: 10px;
+
+}
+img{
+width: 100%;
+border-radius: 10px;
+}
+.card:hover{
+box-shadow: 0 8px 16px black;
+transform: rotate(3deg);
+}
