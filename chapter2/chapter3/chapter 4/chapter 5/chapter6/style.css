@@ -46,9 +46,9 @@ h1{
 
    /* grid-column: 1/4; */
    /* grid-column: 1/span 2; */
-}
-.two{
-    /* align-self: center; */
+    }
+ .two{
+     align-self: center; 
    /* grid-row-start:1 ;
    grid-row-end:2; */
    /* grid-row:1/3; */

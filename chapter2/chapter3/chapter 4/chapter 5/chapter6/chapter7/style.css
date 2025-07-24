@@ -1,0 +1,21 @@
+.card{
+   height: 700px;;
+   width: 500px;
+border: 5px solid black;
+padding: 10px;
+margin: 10px;
+border-radius: 25px;
+
+
+}
+#container{
+   display: flex;
+  justify-content: space-evenly;
+background-size: cover;}
+   
+   
+
+img{
+   width: 100%;
+   border-radius: 25px;
+}
